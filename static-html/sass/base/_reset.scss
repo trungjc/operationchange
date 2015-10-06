@@ -1,0 +1,118 @@
+/*======================== RESET ========================*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, strong, dl, dt, dd, ul, li, fieldset,
+form, label, legend{
+    border:0;font-family:inherit;font-size:100%;margin:0;outline:0;padding:0;
+}
+:focus{
+    outline:0;
+}
+ol,ul{
+    list-style:none;
+}
+img{
+    width:auto\9;
+    height:auto;
+    max-width:100%;
+    vertical-align:middle;
+    -ms-interpolation-mode:bicubic;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color:#fff;
+    color:$color-text;
+    font:normal normal 100% Arial, Helvetica, sans-serif;
+    font-family: $font-family-text;
+    line-height:1.5em;
+    font-size:.75em;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height:normal;
+    margin: 0;
+    padding: 0;
+}
+input,select,textarea{
+    color:#38444f;
+    font:normal normal 1em Arial, Helvetica, sans-serif;
+}
+input:focus,select:focus,textarea:focus,a:link,a:visited,a:hover,a:focus{
+    outline:none
+}
+a:link,a:visited,a:hover,a:focus{
+    text-decoration:none;
+}
+a:link,a:visited{
+    color:$color-link;
+}
+a:hover,a:focus{
+    color:$color-hover-link;
+}
+.clear{
+    clear:both
+}
+.no-margin{
+    margin: 0px;
+}
+.no-padding{
+    padding: 0px;
+}
+.border-l{
+    border-left: 2px solid #fff;
+}
+.border-r{
+    border-right: 2px solid #fff;
+}
+.border-b{
+    border-bottom: 2px solid #fff;
+}
+.padding-2{
+    padding: 7px;
+}
+.padding-0-2{
+    padding: 0px 2px;
+}
+.padding-7{
+    padding: 0px 7px;
+}
+.margin-2{
+    margin: 0px -7px;
+}
+.padding-r-7{
+    padding-right: 7px;
+}
+.padding-l-7{
+    padding-left: 7px;
+}
+.no-padding-l{
+    padding-left: 0px;
+}
+.width-100, img{
+    width: 100%;
+}
+/*.dropdown-menu{
+    overflow: auto;
+}*/
+/*======================== RESET ========================*/
+.main-content {
+    padding: 20px 0;
+    h2{
+       font-size: $font-size-subheadline;
+       font-family: $font-family-headline1;
+        color:$color-link;text-transform: uppercase;
+                margin: 0 0 8px 0;
+            }
+    p {
+        margin: 0 0 20px;
+        line-height: 24px;
+        font-size: 12px;
+        color:$color-general-text;
+            }
+    a {
+            text-decoration: underline}
+    }

@@ -1,0 +1,210 @@
+#wp-inslove-blue{
+    background: url(#{$image-url}/involved-blue.jpg) no-repeat;
+    padding: 50px 0px 30px 0px;
+    margin-top: 90px;
+    background-size: cover;
+    h2{
+        font-size: 42px;
+        float: left;
+        margin-right: 0.5em;
+    }
+    .txt-inslove{
+        padding: 0.5em 0;
+        div{
+            margin: 0;
+            p{
+                font-size: $font-size-text-sm;
+            }
+        }
+    }
+    form{
+        margin-top: 1em;
+    }
+    form>div{
+        margin: 1em 0;
+    }
+}
+
+#wp-search{
+    background: $color-bg;
+}
+
+.sub-header{
+    border-bottom: 1px solid $color-grey-opt;
+    padding-bottom: 0.5em;
+    margin-top: 30px;
+    h3{
+        font-size: 20px;
+        padding: 7px 0;
+        color: $color-grey;
+    }
+
+}
+h4.sub-header{
+    color: $color-grey !important;
+}
+.toggle-view{
+    text-align: right;
+
+    *{
+        color: $color-l-grey;
+        display: inline-block;
+
+    }
+
+    *.active{
+        color: $color-grey;
+    }
+    .map-view{
+        background: url(#{$image-url}/map-grey.png) left center no-repeat;
+    padding: 7px 0 7px 20px;
+}
+.map-view.active{
+    background: url(#{$image-url}/map-green.png) left center no-repeat;
+}
+.list-view{
+    background: url(#{$image-url}/list-grey.png)left center no-repeat;
+padding: 7px 0 7px 25px;
+margin-left: 1em;
+}
+.list-view.active{
+    background: url(#{$image-url}/list-green.png)left center no-repeat;
+}
+}
+
+
+#full-map{
+    background: url(#{$image-url}/GoogleMap.jpg);
+min-height: 300px;
+margin: 1em 0;
+}
+
+.grey100{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 1em 0;
+    border: none;
+    background-color: $color-grey-opt;
+    color: $color-grey;
+    font-size: $font-size-text-sm;
+
+}
+.green-button{
+    background: $color-secondary;
+    color: $color-white;
+    padding: 10px 30px;
+    border: none;
+    font-size: $font-size-text-sm;
+}
+
+//sidebar
+.sidebar {
+    li{
+        list-style: none;
+        margin: 1em;
+
+        label{
+            color: $color-grey;
+            vertical-align: text-bottom;
+            font-weight: $font-normal;
+            font-size: 13px;
+        }
+    }
+}
+
+
+.item-teaser{
+    background: $color-white;
+    padding: 1em;
+    font-size: $font-size-text;
+    border: 5px solid $color-bg;
+    .item-map{
+        padding: 0;
+    }
+    .wrap-meta{
+        text-align: center;
+        div{
+            color: $color-grey;
+            font-weight: $font-semibold;
+
+            p{
+                color:  $color-l-grey;
+                font-weight: $font-normal;
+            }
+        }
+
+        .read-more{
+            background: $color-blue-sub;
+            display: inline-block;
+            padding: 0.5em 1em;
+
+            a{
+                color: white;
+                font-weight: $font-semibold;
+                padding-left: 30px;
+                background: url(#{$image-url}/read-more.png)left center no-repeat;
+        }
+
+
+    } 
+}
+.item-where{
+    margin: 2em 0;
+    text-align: left;
+    padding-left: 90px;
+    background: url(#{$image-url}/location.png) 40px 5px no-repeat;
+}
+
+.item-when{
+    margin: 2em 0;
+    text-align: left;
+    padding-left: 90px;
+    background: url(#{$image-url}/calendar.png) 30px 5px no-repeat;
+}
+
+
+}
+.item-teaser > *{
+    margin-bottom: 1em;
+    line-height: 1.75;
+}
+.item-teaser > p{
+    color: $color-l-grey;
+    border-bottom: 1px solid $color-grey-opt;
+    padding-bottom: 1em;
+}
+.subhead-blue{
+    color: $color-blue-sub;
+    font-size: 22px;
+}
+.item-autor{
+    font-weight: $font-semibold;
+    color: $color-grey;
+    .item-link{
+        color: $color-l-grey;
+        font-weight: $font-normal;
+    }
+}
+ul.navigation{
+    li{
+        float: left;
+        margin: 2em 2%;
+
+        a{
+            color: $color-grey-opt;
+            font-size: $font-size-text;
+            font-weight: $font-semibold;
+        }
+
+    }
+    li.active a,
+    li a:hover {
+        color: $color-blue-sub;
+    }
+}
+
+.wp-inslove {
+		& + #wp-pledge {
+			margin-top: 10px;
+		}
+}

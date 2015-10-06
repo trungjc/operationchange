@@ -1,0 +1,48 @@
+// |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// | Menu_bar
+// |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#wd-menu-bar {
+  .my-avatar {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    display: block;
+    border-radius: 100%;
+  }
+  .menu-child {
+    padding: 162px 0 0;
+    a {
+      font-size: 24px;
+      font-family: "Helvetica Neue";
+      color: #ffffff;
+      border: none;
+      font-weight: 200;
+    }
+    li {
+      margin: 0 0 25px 10%;
+      cursor: pointer;
+      a:hover, a:focus {
+        background: transparent;
+      }
+    }
+    .ico_home a:hover:before {
+      background-position: -48px -0px;
+    }
+    .ico_about a:hover:before {
+      background-position: -0px -24px;
+    }
+    .ico_contact a:hover:before {
+      background-position: -48px -24px;
+    }
+    .ico_log_in a:hover:before {
+      background-position: -48px -48px;
+    }
+    .ico_log_out a:hover:before {
+      background-position: -72px -0px;
+    }
+    li a:hover {
+      color: #ff9c00;
+    }
+  }
+}

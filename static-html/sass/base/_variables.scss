@@ -1,0 +1,53 @@
+// |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// | Variables
+// |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Path
+$image-url: "../img";
+$font-url: "../font";
+
+// Color
+$color-white: #fff;
+$color-black: #000;
+$color-primary: #3465aa;
+$color-secondary: #8cc43d;
+$color-link: #4bb9e8;
+$color-hover-link: #43f812;
+$color-text: #222;
+$color-warning: #d4230f;
+$color-error: #f00;
+$color-bg: #f6f6f6;
+
+$color-grey: #2a3239;
+$color-l-grey: #7d8790;
+$color-grey-opt:rgba(42, 50, 57, 0.1);
+$color-blue-sub: #48b9ea;
+$color-general-text : #7d8790;
+// Font
+$font-family-headline: 'latoregular',"HelveticaNeue-Regular", sans-serif;
+$font-family-headline1: 'latobold',"HelveticaNeue-Regular", sans-serif;
+$font-family-text: 'latoregular',"HelveticaNeue-Regular", sans-serif;
+$font: normal normal 100% "Helvetica", sans-serif;
+
+$font-size-headline: 35px;
+$font-size-subheadline: 18px;
+$font-size-text-md: 20px;
+$font-size-text: 14px;
+$font-size-text-sm: 16px;
+
+$font-normal: 400;
+$font-semibold: 600;
+$font-bold: 700;
+
+// Border-radius
+$border-radius-base: 4px;
+$border-radius-large: 6px;
+$border-radius-small: 3px;
+
+// Breakpoints
+$ex_desktop: "(min-width: 1200px)";
+$desktop: "(max-width: 1200px)";
+$tablet: "(max-width: 992px)";
+$phone: "(max-width: 768px)";
+$smallphone: "(max-width: 480px)";
+$extra-smallphone: "(max-width: 320px)";

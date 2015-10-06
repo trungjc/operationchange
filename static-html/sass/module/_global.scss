@@ -1,0 +1,23 @@
+// |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// | Global
+// |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+html, body {
+    overflow: initial;
+}
+#wd-container .effeckt-page-active {
+	background: transparent!important;
+}
+.effeckt-off-screen-nav ~ .effeckt-page-active[data-effeckt-page]::after {
+	background: transparent!important;
+}
+.effeckt-page-active {
+    padding: 0 8px 0 17px;
+}
+
+#wd-menu-bar header a {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 45px;
+}

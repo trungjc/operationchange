@@ -1,0 +1,84 @@
+.heading-box {
+    padding: 30px 0;
+    background: url(#{$image-url}/bg-head-contact.png) no-repeat left center ;
+    text-align: center;
+    text-transform: uppercase;
+    @media(min-width: 1600px) {background-size: cover}
+    h1 {
+        color: $color-link;
+        font-size: $font-size-headline;
+        font-weight: $font-bold;
+        margin: 0 0 0px 0;line-height: 120%;
+         font-family: $font-family-headline1;
+    }
+    h2 {
+        font-size: $font-size-subheadline;
+        font-weight: $font-normal;
+        margin: 0 0 0;line-height: 120%;
+        font-family: $font-family-headline;
+    }
+}
+
+#wp-contact {
+    padding: 20px 0;
+    
+}
+.left-contact {
+    h2 {
+       font-size: 16px;
+       padding-bottom: 10px;border-bottom: 1px solid #ccc;
+    }
+    
+}
+.form-customize{
+    label {
+        font-size: 12px;
+        font-family: $font-family-headline1;
+        color:#2a3239;
+    }
+    .form-control {
+        background: #dfdfdf;
+        @include border-radius(0);
+        box-shadow: none;
+        height: 40px;
+        margin: 5px 0 18px  0;
+        border: none;
+        font-size: $font-size-text;
+    }
+    textarea {
+            min-height: 314px
+    }
+    .my-selected {
+             position: relative;
+            z-index: 10;   
+             select {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+            
+            padding-right: 30px;
+            }
+            &:after {
+                content:'';
+                position: absolute;
+                width: 0;
+                height: 0;
+                right: 5px;
+                top: 50%;
+                margin-top: -11px;
+                @include square(22px);
+                background: url('#{$image-url}/spritebox-sprite.png') no-repeat 0px -129px;
+            }
+   }
+   .btn.center-block {
+     width: 100%;min-height:  40px;
+    }
+    .btn-primary {
+            font-size: 15px; background: $color-link;
+        @include border-radius(0);font-family: $font-family-headline1;border: none;
+            }
+}
+.intro-form {
+    margin-bottom: 25px;
+    }
+    

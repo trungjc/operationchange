@@ -1,0 +1,165 @@
+@media (max-width: 1200px) {}
+@media (max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+     #wp-header{
+        display: none;
+    }
+    
+}
+@media (max-width: 480px) {
+    
+    /** Inslove **/
+    #wp-inslove{
+        padding: 20px 0px 30px;
+        background: url('../img/bg_inslove_320.png') no-repeat;
+        background-size: cover;
+    }
+    #wp-inslove .txt-inslove{
+        display: none;
+    }
+    #wp-inslove .width-100{
+        width: auto;
+    }
+    #wp-inslove form .started{
+        background: #80c266;
+    }
+    #wp-inslove form .zipcode{
+        width: 100%;
+    }
+    #wp-inslove form select{
+        width: 100%;
+    }
+    #wp-inslove form select, #wp-inslove form input {
+        background: #565656 none repeat scroll 0 0;
+        font-size: 30px;
+        opacity: 0.3;
+        padding: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #wp-inslove form {
+        margin-top: 20px;
+    }
+    #wp-inslove form .content-started{
+        text-align: center;
+    }
+    #wp-inslove h2 {
+        color: #ffffff;
+        font-family: latoregular;
+        font-size: 24px;
+    }
+    /** End Inslove **/
+    
+    /** Operationchange **/
+    #wp-operation{
+        padding: 20px 0 35px;
+    }
+    #wp-operation .content-view-all{
+        margin-top: 5px;
+    }
+    #wp-operation h2{
+        font-size: 24px;
+    }
+    .padding-7{
+        padding: 0px 3px;
+        margin-top: 6px;
+    }
+    #wp-operation .margin-t-35{
+        margin: 0px -3px;
+    }
+    /** End Operationchange **/
+    
+    /** Pledge **/
+    #wp-pledge{
+        background: url(../img/bg_pledge_320.png) no-repeat
+    }
+    #wp-pledge .pledge{
+        background: #80c266;
+        font-size: 24px;
+        font-family: latobold;
+        padding: 15px 30px;
+    }
+    /** End Pledge **/
+    
+    /** Footer-bar **/
+    #wp-footer-bar .free-update form .inp-email::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color: #ffffff;
+    }
+    #wp-footer-bar .free-update form .inp-email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color: #ffffff;
+       opacity:  1;
+    }
+    #wp-footer-bar .free-update form .inp-email::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color: #ffffff;
+       opacity:  1;
+    }
+    #wp-footer-bar .free-update form .inp-email:-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color: #ffffff;
+    }
+    #wp-footer-bar .free-update form .inp-email {
+        background: #5a5a5a;
+    }
+    #wp-footer-bar .see-more{
+        color: #ffffff;
+    }
+    #wp-footer-bar ul.menu-list li a {
+        color: #ffffff;
+    }
+    #wp-footer-bar h6{
+        color: #ffffff;
+    }
+    #wp-footer-bar .free-update p,
+    #wp-footer-bar .contact p{
+        color: #ffffff;
+    }
+    #wp-footer-bar{
+        padding: 30px 0px;
+        background: #474747;
+    }
+    #wp-footer-bar ul.menu-list li{
+        float: left;
+        margin-right: 10px;
+    }
+    #wp-footer-bar ul.menu-list li a{
+        border-right: 2px solid #fff;
+        padding-right: 10px;
+    }
+    #wp-footer-bar ul.menu-list li:last-child a{
+        border: none
+    }
+    #wp-footer-bar .contact a img{
+        margin-top: 20px;
+        width: 50%;
+    }
+    #wp-footer-bar .contact .location .eden{
+        margin-left: 0px;
+    }
+    #wp-footer-bar .content-user-list,
+    #wp-footer-bar .contact,
+    #wp-footer-bar .free-update{
+        margin-top: 30px;
+    }
+    #wp-footer-bar .contact{
+        padding: 0px;
+    }
+    #wp-footer-bar .free-update form .sub-form{
+        background: #80c266;
+    }
+    /** End Footer-bar **/
+    
+    /** Footer **/
+    #wp-footer .content-copyright p{
+        padding-bottom: 20px;
+        margin-top: 0px;
+    }
+    #wp-footer{
+        background: #313131;
+    }
+    /** End Footer **/
+}
+@media (max-width: 320px) {}

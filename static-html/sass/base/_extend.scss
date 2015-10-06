@@ -1,0 +1,161 @@
+/*======================== EXTEND ========================*/
+.clear {
+    &:before,
+        &:after {
+        display: table;
+        content: " ";
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+// Text overflow
+// Requires inline-block or block for proper styling
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// CSS image replacement
+.text-hide {
+    font: "0/0";
+    color: transparent;
+    text-shadow: none;
+    text-indent: -9999px;
+    background-color: transparent;
+    border: 0;
+}
+
+// Inline-block
+.display-ib {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+}
+
+// Image Responsive
+.img-responsive {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+/*======================== EXTEND ========================*/
+
+/* checkbox */
+
+.checkbox {
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 17px;
+    height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + label {
+    cursor: pointer;
+}
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+.checkbox:not(checked) + label {
+    position: relative; /*  позиционировать  относительно label */
+    padding: 0 0 0 20px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    background: $color-grey-opt;
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    transition: all .2s; 
+}
+.checkbox:checked + label:after {
+    background: $color-blue-sub;
+}
+
+/*======================== WIDGET ========================*/
+#widget{
+    background: white;
+    padding: 0 0 1em;
+    h3{
+        margin-top: 0;
+        padding: 1em 0;
+        text-align: center;
+        font-size: $font-size-text-sm;
+        color: $color-grey;
+        font-weight: lighter;
+    }
+    form{
+        padding: 1em;
+
+        *{
+            width: 100%;
+            margin: 0 0 1em;
+            border: none;
+            font-size: $font-size-text;
+        }
+        input[type="text"], select{
+            background: $color-grey-opt;
+            padding: 10px 15px;
+        }
+        p.toggle{
+            font-size: $font-size-text-sm;
+            margin-bottom: 0;
+            span{
+                display: block;
+                font-size: 80%;
+                padding-left: 9px;
+            }
+            input{
+                display: none;
+            }
+        }
+        p.toggle:before {
+            content: '*';
+            color: $color-blue-sub;
+            padding: 2px;
+        }
+        button{
+            background: $color-blue-sub;
+            color: white;
+            padding: 10px;
+            font-weight: bold
+        }
+        select {
+            -webkit-appearance: none;
+            background: $color-grey-opt url(#{$image-url}/icon_down.png) 95% center no-repeat;
+            /* for FF */
+            -moz-appearance: none;
+            text-indent: 0.01px; 
+            text-overflow: '';
+            /* for IE */
+            -ms-appearance: none;
+            appearance: none!important;
+        }
+
+        select::-ms-expand {
+            display: none;
+        }
+    }
+}

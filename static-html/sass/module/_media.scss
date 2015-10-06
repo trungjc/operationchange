@@ -1,0 +1,407 @@
+@media (max-width: 1280px) {
+    header.fixed{
+        nav{
+            padding: 0px 10px;
+        }
+    }
+    header {
+        nav {
+            .container {
+                p.tesminal {
+                     margin-top: 20px;
+                     font-size: 18px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+    #wp-header{
+        .fix-wp-logo{      
+             width: 30%;
+        }
+        .fix-txt-logo{
+            width: 70%;
+        }
+    }
+}
+@media (max-width: 992px) {}
+@media (max-width: 800px){
+    header.fixed {
+        nav{
+            padding: 0px;
+        }
+    }
+    header {
+        nav {
+            .container {
+                p.tesminal {
+                     margin-top: 10px;
+                     font-size: 15px;
+                }
+                .action-user {
+                    margin-left: 0px;
+                    margin-top: 30px;
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    
+    #wp-home{
+        padding: 40px 0 20px;
+    }
+     #wp-header {
+        min-height: 70px;
+        .fix-wp-logo {
+            width: 25%; 
+        }
+        .fix-txt-logo {
+            width: 75%; 
+        }
+        .txt-global {
+            font-size: 17px;
+            margin-top: 22px; 
+        }
+        .right-header {
+            top: 5px;
+        }
+    }
+    #wp-home {
+        .text-of-post {
+            padding: 10px 5px; 
+        } 
+        .post-center {
+            padding: 15px 15px 35px; 
+        }
+    }
+    #wp-inslove {
+        h2 {
+          font-size: 45px; 
+        }
+        form {
+            .started {
+                font-size: 26px;
+            }
+            select, input{
+                font-size: 26px;
+            }
+        }
+    }
+    #wp-news {
+        .news_des{
+            h6  {
+                font-size: 15px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+     
+    #wp-pledge {
+        .pledge {
+            font-size: 30px;
+        }
+    }
+    
+    
+}
+@media (max-width: 640px) {
+    .navbar-nav{
+        .open {
+            .dropdown-menu{
+                position: absolute;
+                float: left;
+            }
+        }
+    }
+    #wp-header {
+        .container{
+            .tesminal{
+                display: none;
+            }
+            .action-user{
+                display: none;
+            }
+            .collapse{
+                display: block;
+                padding: 0px;
+            }
+        }
+    }
+    #wp-home {
+         padding: 25px 0;
+        .show-line{
+            display: block;
+        }
+        .float-r{
+            float: right;
+        }
+        .col-xs-6-cus{
+            width: 50%;
+            float: left;
+            position: relative;
+            .text-of-post{
+                padding: 0 0 0 10px;
+            }
+        }
+        .post-center{
+            padding: 15px 0 0;
+            background: #f6f6f6;
+            .post-middle-title{
+                font-size: 14px;
+            }
+            .date-time-post{
+                font-size: 14px;
+            }
+        }
+        .border-l, .border-r{
+            border: 0px;
+        }
+        .mobile-border{
+            border-top: 1px solid #dddddd;
+            height: 20px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    /** Inslove **/
+    #wp-inslove{
+        padding: 20px 0px 30px;
+        background: url('../img/bg_inslove_320.png') no-repeat;
+        background-size: cover;
+        .txt-inslove{
+            display: none;
+        }
+        .width-100{
+            width: auto;
+        }
+        form {
+            margin-top: 20px;
+            .zipcode{
+                width: 100%;
+                padding: 15px;
+            }
+            select{
+                width: 100%;
+            }
+            .content-started{
+                text-align: center;
+            }
+            select, input {
+                font-size: 30px;
+                padding: 15px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        h2 {
+            color: #ffffff;
+            font-family: latoregular;
+            font-size: 24px;
+        }
+    }
+    
+    /** End Inslove **/
+    
+    /** Operationchange **/
+    .padding-7{
+        padding: 0px 7px;
+        margin-top: 14px;
+    }
+    #wp-operation{
+        padding: 20px 0 35px;
+        .content-view-all{
+            margin-top: 5px;
+        }
+        h2{
+            font-size: 24px;
+        }
+        
+    }
+    
+    /** End Operationchange **/
+    
+    /** Pledge **/
+    #wp-pledge{
+        background: url(../img/bg_pledge_320.png) no-repeat;
+        background-size: cover;
+        .pledge{
+            font-size: 24px;
+            font-family: latobold;
+            padding: 15px 30px;
+        }
+    }
+    /** End Pledge **/
+    
+    /** Footer-bar **/
+    #wp-footer-bar {
+        padding: 30px 0px;
+        background: #474747;
+        ul.user-list{
+            li{
+                p{
+                    color: #fff;
+                }
+            }
+        }
+        .free-update {
+            margin-top: 30px;
+            p{
+                color: #ffffff;
+            }
+            
+            form {
+                .inp-email {
+                    background: #5a5a5a;
+                    color: #ffffff;
+                }
+                .inp-email::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+                    color: #ffffff;
+                }
+                .inp-email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                   color: #ffffff;
+                   opacity:  1;
+                }
+                .inp-email::-moz-placeholder { /* Mozilla Firefox 19+ */
+                   color: #ffffff;
+                   opacity:  1;
+                }
+                .inp-email:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                   color: #ffffff;
+                }
+            }
+        }
+        .see-more{
+            color: #ffffff;
+        }
+        h6{
+            color: #ffffff;
+        }
+        ul.menu-list{
+            li{
+                float: left;
+                margin-right: 10px;
+                a{
+                    border-right: 2px solid #fff;
+                    padding-right: 10px;
+                    color: #ffffff;
+                }
+            }
+            li:last-child {
+                a{
+                    border: none
+                }
+            }
+        }
+        .contact{
+            margin-top: 30px;
+            padding: 0px;
+            a {
+                img{
+                    margin-top: 20px;
+                    width: 50%;
+                }
+            }
+            .location {
+                .eden{
+                    margin-left: 0px;
+                }
+            }
+            p{
+                color: #ffffff;
+            }
+        }
+        .content-user-list{
+            margin-top: 30px;
+        }
+    }
+    /** End Footer-bar **/
+    
+    /** Footer **/
+    #wp-footer {
+        background: #313131;
+    }
+    
+    /** End Footer **/
+    .padding-r-7{
+        padding-right: 0px;
+    }
+    .padding-l-7{
+        padding-left: 0px;
+    }
+    #wp-inslove form select, #wp-inslove form input, .wp-inslove form select, .wp-inslove form input,
+    #wp-inslove form .started, .wp-inslove form .started{
+        font-size: 24px; padding: 24px;
+    }
+    #wp-inslove form .zipcode, .wp-inslove form .zipcode {
+         float: left;
+    }
+}
+@media (max-width: 480px) {
+    .news_des{
+        padding: 5px;
+    }
+    #wp-header {
+        min-height: 50px;
+    }
+    #wp-inslove{
+        form{
+            .started{
+                padding: 20px;
+            }
+        }
+    }
+   
+}
+@media (max-width: 360px){
+    #wp-inslove{
+        form{
+            select, input {
+                font-size: 20px;
+            }
+            .my-selected::after {
+                top: 25px;
+                border-width: 10px 10px 0;
+            }
+        }
+    }
+    
+}
+@media (max-width: 320px) {
+    #wp-footer-bar{
+        ul.user-list{
+            padding-right: 0;
+        }
+    }
+    #wp-footer {
+        .content-social{
+            .find_us{
+                margin-right: 0;
+            }
+        }
+    }
+    .modal-fullscreen{
+        .modal-body{
+            padding: 0px;
+        }
+    }
+    .modal-fullscreen{
+        .modal-dialog {
+            .modal-content {
+                padding: 15px;
+                .container-modal{
+                    width: 100%
+                }
+            }
+        }
+    }
+}

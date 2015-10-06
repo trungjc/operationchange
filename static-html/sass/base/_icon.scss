@@ -1,0 +1,21 @@
+/*======================== ICON ========================*/
+.ico_instagram_black, .ico_twitter_black {
+  display: inline-block;
+  background-image: url(#{$image-url}/spritebox-sprite.png);
+  background-repeat: no-repeat
+}
+
+.ico_instagram_black {
+  background-position: -53px -0px;
+  height: 28px;
+  width: 27px;
+  cursor: pointer;
+}
+
+.ico_twitter_black {
+  background-position: -13px -53px;
+  height: 23px;
+  width: 27px;
+  cursor: pointer;
+}
+/*======================== ICON ========================*/
