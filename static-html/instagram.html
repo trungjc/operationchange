@@ -173,15 +173,17 @@
     <div class="header-image-top"><img src="img/header-image.jpg"/></div>
     <div class="fluid-content">
         <div class="container">          
-            <div class="row no-margin">
+            <div class="row ">
                 <div class="col-xs-12 col-md-12 col-lg-12 menu-navigation centered custome">
-                    
-                        <div class="menu-item-main text-first">
+                    <div class="col-xs-12 col-md-5 col-sm-12 centered">
+                        <div class="menu-item-main text-first ">
                             <div class="menu-item-sub">@Operationchange</div>
                         </div>
                         <div class="menu-item-main text-first">
                             <div class="menu-item-sub">#Starkeycare</div>
                         </div>
+                    </div>
+                     <div class="col-xs-12 col-md-7 col-sm-12">
                         <div class="menu-item-main">
                             <div class="menu-item-sub-dropdown">
                                 <div class="dropdown">
@@ -206,13 +208,18 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                        
+                        
                 </div>
             </div>
         </div>
     </div>
         <div class="container">
-            <div class="row no-margin centered">
-                <div class="col-xs-12 col-md-12 col-lg-12 content-instagram-main gallery centered">
+            <div class="row  centered">
+                <div id="gallery-instagram" class=" content-instagram-main gallery centered">
+                    <div class="col-md-12"><div class="total-post"><div>23,074 <span>POSTS</span></div></div></div>
+                    
                     <div class="col-md-4 col-sm-4 col-xs-6 responsive-mobile">
                         <div class="thumnail">
                             <div class="caption">
@@ -286,45 +293,47 @@
                         </div>
                     </div>
                 </div>
+                 <div class=" action-button col-md-12 ">
+                     <a class="scroll-top " href="#gallery-instagram "><i class="fa fa-chevron-up "></i></a>
+                    <div class="text-center loadmore"><a class="btn load-more ">LOAD MORE</a></div>
+                </div>
             </div>
         </div>
         
-        <div class="container">
-            <div class="row no-margin">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <div class="col-lg-4 col-lg-offset-4 text-center loadmore"><a class="btn load-more ">LOAD MORE</a><i class="fa fa-chevron-circle-up pull-right"></i></div>
-                </div>
+        <section class="container get-more-picture">
+            <div class="row ">
+               
                 <div class="col-xs-12 col-md-12 col-lg-12">
                     <div class="col-lg-12 text-center text-footer">
-                    Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per. Vis ex oblique convenire, nisl ubique accusamus ei has. An sit dolore mollis salutatus, debet invenire philosophia mei in, has iuvaret atomorum argumentum ei. Ut vix impedit moderatius, eu copiosae suavitate sea. Et quis impedit perpetua sed.
+                        
+                        <h1><div class="arrow-top"></div>How to Get Your Picture Here</h1>
+                        <p>
+                         Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per. Vis ex oblique convenire, nisl ubique accusamus ei has. An sit dolore mollis salutatus, debet invenire philosophia mei in, has iuvaret atomorum argumentum ei. Ut vix impedit moderatius, eu copiosae suavitate sea. Et quis impedit perpetua sed.
+                      
+                        </p>
                     </div>
-            </div>
-        </div>
-        
-        <div class="container margintop">
-            <div class="row no-margin">
+                </div>
                 <div class="col-xs-12 col-md-12 col-lg-12">
                     <div class="col-md-4 col-sm-4 col-xs-6 responsive-mobile">
                         <div class="box-image-bottom">
                             <img src="img/bottom-image1.jpg" class="img-box-bottom"/>
-                            <div class="text-center margintop padding-text">Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per</div>
+                            <div class="text-center  padding-text">Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per</div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 responsive-mobile">
                         <div class="box-image-bottom">
                             <img src="img/bottom-image2.jpg" class="img-box-bottom"/>
-                            <div class="text-center margintop padding-text">Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per</div>
+                            <div class="text-center  padding-text">Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per</div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6 responsive-mobile">
                         <div class="box-image-bottom">
                             <img src="img/bottom-image3.jpg" class="img-box-bottom"/>
-                            <div class="text-center margintop padding-text">Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per</div>
+                            <div class="text-center  padding-text">Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per</div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        </section>
     </section>
     <!-- End Home-->
     
@@ -558,28 +567,6 @@
 <script>
 $(document).ready(function() {
     
-function rezsize_pop(){
- 
-  var  width = $( window ).width();
-      if(width < 677){
-        $('.modal-dialog').css('width', width - 20);
-        $('.modal-dialog').css('margin', '0 auto');
-    }else{
-        $('.modal-dialog').css('width', 600);
-    }
- }
- 
-$( window ).resize(function() {
-    rezsize_pop();
-});
-$('.thumnail').hover(
-        function(){
-            $(this).find('.caption').slideDown(250); //.fadeIn(250)
-        },
-        function(){
-            $(this).find('.caption').slideUp(250); //.fadeOut(205)
-        }
-); 
 $('.thumnail').click(function(){
 
     $('.modal-body').empty();

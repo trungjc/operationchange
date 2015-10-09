@@ -1,11 +1,5 @@
 $(document).ready(function () {
-    setTimeout(function () {
-        var height1 = $(".height-img").height();
-        $(".height-img-weight").css("height", height1);
-        var height_menu = $("body").height();
-        if (height_menu < 460)
-            $(".dropdown-menu").css("height", height_menu - 100);
-    }, 1);
+
 
     $('.content-opera a').hover(function () {
         var id = $(this).attr("data-id");
