@@ -54,8 +54,6 @@
         padding:0px;
     }
 }
-.menu-item-main{
-}
 
 .custome-drop{
     width: 235px;
@@ -90,49 +88,50 @@
         text-align:center;
     }
 }
-@media screen and (min-width: 980px) {
+
+@media  screen and  (min-width: 768px) {
     .menu-item-main {
          width: 50%;
          float: left;
          &.text-first {
-                     border-right: 1px solid $color-white;
-                    display: inline-block;
-                    float: none;
-                    padding: 0;
-                    text-align: center;
-                    width: auto;
-                     }
-                     & + .menu-item-main .menu-item-sub-dropdown{
-                                 margin-left: 10px;}
+            border-right: 1px solid $color-white;
+            display: inline-block;
+            float: none;
+            padding: 0;
+            text-align: center;
+            width: auto;
+        }
+        & + .menu-item-main .menu-item-sub-dropdown{
+                    margin-left: 10px;}
     }
 }
+
 .centered  {
     text-align:center}
 .menu-item-sub-dropdown{
-    padding:16px 16px ;
+    .dropdown  {
+            padding:16px 16px ;
+            }
     text-align: left;
     background: #83CFEF;
     font-size: $font-size-text-md;
     @include border-radius(3px);
+    
    
-    ul{  
+    ul{   width:100%;
         a{
             color:black;
             background: $color-white;
             border:none;
             margin: 10px 0;
         }
-        @media screen and (max-width: 480px) {
-            width:108%;
-        }
+        
     }
     a{
         color:white;
         border-radius: 3px;
     }
-    @media screen and (max-width: 480px) {
-        width:100%;
-    }
+  
 }
 .content-instagram-main{
     margin-bottom:30px;
@@ -170,7 +169,7 @@
     color:$color-text;
     text-transform: uppercase;
      @media screen and (max-width: 480px) {
-        width:80%;
+        width:80%;min-width:0;
     }
 }
 .box-ins{
@@ -277,6 +276,7 @@
             float:left;
             font-size:20px;
             padding:10px;
+            border-radius:4px;
             a{  color:white;
                 &:hover{
                     color:white;
@@ -314,7 +314,6 @@
     font-size:16px;
     font-weight:bold;
     color: #89d1f0;
-    padding: 3px;
 }
 .thumnail {
     position:relative;
@@ -378,9 +377,69 @@
 .fb_iframe_widget span,
 .fb_iframe_widget iframe[style]  {width: (100% !important)}
  
-
-@media screen and (max-width: 767px) {
-        .menu-item-main {
+.modal-dialog.custom {
+    .modal-header {
+            border:none;
+            padding:0;
+             .close {
+                color: white;  opacity: 1;
+                margin-top: -22px;
+                i {color: white;}
+            }
+            }
+    }
+@media (max-width: 768px) {
+        .menu-item-sub-dropdown {
          margin: 5px 0;
         }
 }  
+@media (min-width: 768px) and (max-width: 980px) {
+ .menu-item-main.text-first  {
+         border: none;
+         margin-bottom: 5px;
+         & + .menu-item-main.text-first  {
+                     border-left: 1px solid white;
+                     }
+         }   
+ }
+ .modal-footer {text-align:left;}
+ .column {
+     margin-bottom:20px;
+     }
+.detail-heading {
+    .liked  {
+            margin-top:10px;display: block;
+            }
+    } 
+.detail {
+    p {
+            margin: 10px 0;
+        
+            }
+            a {
+                    font-weight: bold;
+                    font-family:$font-family-headline1;
+                    }
+    }
+     .liked {
+         color:#cccccc;font-size: 20px;
+         }
+         .muted {color:#cccccc;}
+         .heading  {
+             position: relative;
+             margin: 0 0 10px;
+             .date {
+                     position: absolute;
+                     right: 0;
+                     top: 50%; @include transform(translateX(-50%));
+                     }
+             }
+             .modal {
+                 .liked {font-size: 15px;
+    margin-top: 5px;}
+                 }
+         @media (max-width: 360px) {
+              .detail-heading {
+                      .col-md-6  {width:100%;}
+                      }
+             }    
