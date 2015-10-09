@@ -1333,8 +1333,6 @@ header.fixed nav {
   position: absolute;
   margin-top: -50px;
   right: 35%; }
-  .img-box-bottom:hover {
-    border: none; }
 
 .margintop {
   margin-top: 30px; }
@@ -1342,33 +1340,19 @@ header.fixed nav {
 .fluid-content {
   width: 100%;
   background-color: #4ebae8; }
-  @media screen and (max-width: 980px) {
-    .fluid-content {
-      padding-bottom: 20px; } }
-  @media screen and (max-width: 680px) {
-    .fluid-content {
-      padding-bottom: 0px; } }
 
 .header-image-top {
   display: block;
   margin-top: 10px; }
 
-@media screen and (max-width: 980px) {
-  .text-first {
-    text-align: center;
-    width: 100% !important; } }
-
 .menu-navigation {
   background-color: #4ebae8;
   width: 100%;
   margin: 0 auto; }
-  @media screen and (max-width: 480px) {
-    .menu-navigation {
-      padding: 0px; } }
 
 .menu-item-main {
   float: left; }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 620px) {
     .menu-item-main {
       width: 50%; } }
   @media screen and (max-width: 480px) {
@@ -1391,6 +1375,7 @@ header.fixed nav {
 .menu-item-sub {
   padding: 15px;
   color: white;
+  text-align: justify;
   font-size: 20px; }
   .menu-item-sub ul a {
     color: black;
@@ -1430,8 +1415,8 @@ header.fixed nav {
       width: 100%; } }
 
 .content-instagram-main {
-  margin-bottom: 30px;
-  margin-top: 20px; }
+  overflow: hidden;
+  margin-bottom: 20px; }
 
 .loadmore {
   margin-bottom: 20px; }
@@ -1441,6 +1426,9 @@ header.fixed nav {
   color: black;
   border: solid black 2px;
   text-align: center; }
+
+.box-ins {
+  margin-bottom: 10px; }
 
 .box-image {
   padding: 5px;
@@ -1466,128 +1454,14 @@ header.fixed nav {
   padding: 5px;
   color: #CACACA; }
 
-.thumnail {
-  margin-bottom: 6px; }
-
 .icon-filter {
-  margin-right: 10px;
+  margin-left: 10px;
   width: 20px;
   height: 20px;
   border-radius: 50px; }
 
-@media screen and (max-width: 767px) {
-  .responsive-mobile {
-    width: 100%; } }
-
-.dropdown-menu {
-  background-color: EFF9FD;
-  opacity: 0.9; }
-  .dropdown-menu ul li {
-    background-color: EFF9FD; }
-    .dropdown-menu ul li a {
-      opacity: 1; }
-
-.avatar-small {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px; }
-
-.content-social ul {
-  display: inline; }
-  .content-social ul li {
-    list-style: none;
-    float: left;
-    font-size: 20px;
-    padding: 10px; }
-    .content-social ul li a {
-      color: white; }
-      .content-social ul li a:hover {
-        color: white; }
-
-.content-twitter-social {
-  width: 40px;
-  height: 40px;
-  margin: 2px;
-  background-color: #00ACED; }
-
-.content-google-social {
-  width: 40px;
-  height: 40px;
-  margin: 2px;
-  background-color: #E14A36; }
-
-.content-facebook-social {
-  width: 40px;
-  height: 40px;
-  margin: 2px;
-  background-color: #4461A6; }
-
-.posted {
-  text-align: left;
-  font-size: 14px;
-  color: #cccccc;
-  padding: 3px; }
-
-.author {
-  text-align: left;
-  font-size: 16px;
-  font-weight: bold;
-  color: #89d1f0;
-  padding: 3px; }
-
-.thumnail {
-  position: relative;
-  overflow: hidden; }
-
-.caption {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: transparent;
-  display: none;
-  text-align: center;
-  line-height: 25px;
-  color: #fff !important;
-  z-index: 2;
-  font-size: 20px;
-  border: solid 4px #4EBAE8; }
-  @media screen and (max-width: 980px) {
-    .caption {
-      line-height: 25px; } }
-  @media screen and (max-width: 767px) {
-    .caption {
-      line-height: 25px; } }
-  .caption p {
-    font-style: italic; }
-  .caption a {
-    color: white; }
-    .caption a:hover {
-      color: white; }
-
-.img-caption {
-  width: 20px;
-  height: auto; }
-
-.top-caption {
-  margin-top: 50px; }
-  @media screen and (max-width: 980px) {
-    .top-caption {
-      margin-top: 0px; } }
-  @media screen and (max-width: 767px) {
-    .top-caption {
-      margin-top: 50px; } }
-  @media screen and (max-width: 419px) {
-    .top-caption {
-      margin-top: 10px; } }
-
-.modal-body .caption {
-  display: none !important; }
-
-.fb_iframe_widget,
-.fb_iframe_widget span,
-.fb_iframe_widget iframe[style] {
-  width: 100% !important; }
+.dropdown-menu ul li a {
+  display: inline !important; }
 
 .heading-box {
   padding: 30px 0;
