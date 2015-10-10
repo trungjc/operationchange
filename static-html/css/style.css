@@ -1756,12 +1756,8 @@ header.fixed nav {
     right: 0px;
     top: 50%;
     font-weight: bold;
-    text-shadow: none;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    margin-top: -5px;
+    text-shadow: none; }
     .modal .carousel .fa.fa-angle-double-left {
       right: auto;
       left: 0; }

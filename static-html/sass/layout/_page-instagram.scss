@@ -477,8 +477,8 @@ hr {
         right: 0px;
         top: 50%;
         font-weight: bold;
+        margin-top: -5px;
         text-shadow: none;
-        @include transform(translateY(-50%));
         &.fa-angle-double-left {
             right: auto;
             left: 0;
