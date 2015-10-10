@@ -1,580 +1,547 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <title>OC</title>
-    <!-- meta tags start -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="Keywords" content="HTML5, CSS3" />
-    <meta name="Description" content="Template" />
-    <link rel="shortcut icon" href="icon/favicon.ico" />
-    <!-- meta tags end -->
-    
-    <!-- CSS files start -->
-    <link href="css/bootstrap.css" rel="stylesheet"/>
-    <link href="css/font-awesome.css" rel="stylesheet" />
-    <!--<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <!-- CSS files end -->
-    
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/js.js"></script>
-</head>
-<body>
-<div id="fb-root"></div>
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=765734433537227";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-    <header id="wp-header" class="header-main">
-		<nav class="navbar navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="row">
-					<!-- navbar-header -->
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                        <div class="logo clearfix">
-							<a href="#"><img src="img/logo.jpg"></a>
-						</div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-						<p class="tesminal">A global movement connecting people to the change they want</p>
-					</div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 pull-right">
-                        <div class="action-user">
-                            <a href="#" data-toggle="modal" data-target="#registerModal">Sign Up</a>
-                            <a href="#" data-toggle="modal" data-target="#loginModal">Login </a>
+    <head>
+        <title>OC</title>
+        <!-- meta tags start -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="Keywords" content="HTML5, CSS3" />
+        <meta name="Description" content="Template" />
+        <link rel="shortcut icon" href="icon/favicon.ico" />
+        <!-- meta tags end -->
+        <!-- CSS files start -->
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/font-awesome.css" rel="stylesheet" />
+        <!--<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <!-- CSS files end -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=765734433537227";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <header id="wp-header" class="header-main">
+            <nav class="navbar navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <!-- navbar-header -->
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="logo clearfix">
+                                <a href="#"><img src="img/logo.jpg"></a>
+                            </div>
                         </div>
-    					
-                        <!-- nav-collapse is login-->
-    					<div class="collapse navbar-collapse pull-right" id="nav-collapse">
-    						<ul class="nav navbar-nav navbar-right">
-    							<li class="dropdown">
-    								<a href="#" class="dropdown-toggle clearfix" data-toggle="dropdown">
-    									<i class="fa fa-bars"></i> 
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                            <p class="tesminal">A global movement connecting people to the change they want</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 pull-right">
+                            <div class="action-user">
+                                <a href="#" data-toggle="modal" data-target="#registerModal">Sign Up</a>
+                                <a href="#" data-toggle="modal" data-target="#loginModal">Login </a>
+                            </div>
+                            <!-- nav-collapse is login-->
+                            <div class="collapse navbar-collapse pull-right" id="nav-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle clearfix" data-toggle="dropdown">
+                                        <i class="fa fa-bars"></i> 
                                         <i class="fa fa-times-circle-o"></i>
-    									<img src="img/avatar.jpg" alt="" />
-    								</a>
-    								<ul class="dropdown-menu my-menu">
-                                        
-    									<li class="home-link"><a href="#">Home</a></li>
-                                        <li class="episodes-menu"><a class="trigger right-caret">Episodes</a>
-                                            <ul class="dropdown-menu sub-menu" style="border-top: 0px;">
-                                                <li class="content-list-online">
-                                                    <ul>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f1.png" /></a><span>Haiti</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f2.png" /></a><span>Isarel & Palestine</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f3.png" /></a><span>Tanzania</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f4.png" /></a><span>Colombia</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f5.png" /></a><span>Lebanon</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f6.png" /></a><span>South Arfica</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f7.png" /></a><span>Malysia</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f8.png" /></a><span>Ethiopia</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f9.png" /></a><span>India</span></li>
-                                                        <li class="list-online"><a href="#"><img src="img/avatar_f9.png" /></a><span>Papua New Guinea</span></li>
-                                                
-                                                    </ul>
-                                                </li>
-                                                
-                                                
-                                                <li class="point">
-                                                    <span><b>45,678</b> points</span>
-                                                    <div class="progress">
-                                                      <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
-                                                      aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                                      </div>
-                                                    </div>
-                                                    <p class="stevan">Stevan, you need to earn another 22,000 points to Volunteer Level.</p>
-                                                </li>
-                                                <li class="range-list">
-                                                    <span>Episodes watched:</span>
-                                                    <span class="pull-right">1</span>
-                                                    <div class="progress">
-                                                      <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
-                                                      aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                                        9 to get community champ badge
-                                                      </div>
-                                                    </div>
-                                                </li>
-                                                <li class="range-list">
-                                                    <span>Behind the Scenes:</span>
-                                                    <span class="pull-right">12</span>
-                                                    <div class="progress">
-                                                      <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
-                                                      aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                                        8 to Contributor Level
-                                                      </div>
-                                                    </div>
-                                                </li>
-                                                <li class="range-list">
-                                                    <span>Causes Contacted:</span>
-                                                    <span class="pull-right">2</span>
-                                                    <div class="progress">
-                                                      <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
-                                                      aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                                        6 to Contributor Level
-                                                      </div>
-                                                    </div>
-                                                </li>
+                                        <img src="img/avatar.jpg" alt="" />
+                                        </a>
+                                        <ul class="dropdown-menu my-menu">
+                                            <li class="home-link"><a href="#">Home</a></li>
+                                            <li class="episodes-menu">
+                                                <a class="trigger right-caret">Episodes</a>
+                                                <ul class="dropdown-menu sub-menu" style="border-top: 0px;">
+                                                    <li class="content-list-online">
+                                                        <ul>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f1.png" /></a><span>Haiti</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f2.png" /></a><span>Isarel & Palestine</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f3.png" /></a><span>Tanzania</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f4.png" /></a><span>Colombia</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f5.png" /></a><span>Lebanon</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f6.png" /></a><span>South Arfica</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f7.png" /></a><span>Malysia</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f8.png" /></a><span>Ethiopia</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f9.png" /></a><span>India</span></li>
+                                                            <li class="list-online"><a href="#"><img src="img/avatar_f9.png" /></a><span>Papua New Guinea</span></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="point">
+                                                        <span><b>45,678</b> points</span>
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
+                                                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                                            </div>
+                                                        </div>
+                                                        <p class="stevan">Stevan, you need to earn another 22,000 points to Volunteer Level.</p>
+                                                    </li>
+                                                    <li class="range-list">
+                                                        <span>Episodes watched:</span>
+                                                        <span class="pull-right">1</span>
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
+                                                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                                                9 to get community champ badge
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="range-list">
+                                                        <span>Behind the Scenes:</span>
+                                                        <span class="pull-right">12</span>
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
+                                                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                                                8 to Contributor Level
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="range-list">
+                                                        <span>Causes Contacted:</span>
+                                                        <span class="pull-right">2</span>
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-color" role="progressbar" aria-valuenow="50"
+                                                                aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                                                6 to Contributor Level
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="pledged-menu">
+                                                <span>Pledged</span>
+                                                <span><i class="fa fa-check-circle-o"></i></span>
+                                            </li>
+                                            <li class="recent">
+                                                <p class="text-header">
+                                                    <span>Recent Activity</span>
+                                                    <span class="pull-right">Points</span>
+                                                </p>
+                                                <p>
+                                                    <span class="width-75">Viewed content in Carnival</span>
+                                                    <span class="pull-right">20</span>
+                                                </p>
+                                                <p>
+                                                    <span class="width-75">Watched Colombia</span>
+                                                    <span class="pull-right">60</span>
+                                                </p>
+                                                <p>
+                                                    <span class="width-75">Viewed content in The Sangoma</span>
+                                                    <span class="pull-right">40</span>
+                                                </p>
+                                                <p>
+                                                    <span class="width-75">Viewed content in The Sangoma</span>
+                                                    <span class="pull-right">20</span>
+                                                </p>
+                                                <a href="#">View More</a>
+                                            </li>
+                                            <li class="logout"><a href="#" data-toggle="modal" data-target="#loginModal">Logout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header-->
+        <!-- End Header-->
+        <!-- Begin Home-->
+        <section id="wp-instagram">
+            <div class="header-image-top"><img src="img/header-image.jpg"/></div>
+            <div class="fluid-content">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xs-12 col-md-12 col-lg-12 menu-navigation centered custome">
+                            <div class="col-xs-12 col-md-5 col-sm-12 centered">
+                                <div class="menu-item-main text-first ">
+                                    <div class="menu-item-sub">@Operationchange</div>
+                                </div>
+                                <div class="menu-item-main text-first">
+                                    <div class="menu-item-sub">#Starkeycare</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-7 col-sm-12">
+                                <div class="menu-item-main">
+                                    <div class="menu-item-sub-dropdown">
+                                        <div class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Feature Contributor <i class="fa fa-chevron-circle-down pull-right"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img src="img/avatar_f3.png" class="icon-filter"/>Action</a></li>
+                                                <li><a href="#"><img src="img/avatar_f3.png" class="icon-filter"/>Another action</a></li>
+                                                <li><a href="#"><img src="img/avatar_f3.png" class="icon-filter"/>Something else here</a></li>
                                             </ul>
-                                        </li>                                            
-                                        <li class="pledged-menu">
-                                            <span>Pledged</span>
-                                            <span><i class="fa fa-check-circle-o"></i></span>
-                                        </li>
-    									<li class="recent">
-                                            <p class="text-header">
-                                                <span>Recent Activity</span>
-                                                <span class="pull-right">Points</span>
-                                            </p>
-                                            <p>
-                                                <span class="width-75">Viewed content in Carnival</span>
-                                                <span class="pull-right">20</span>
-                                            </p>
-                                            <p>
-                                                <span class="width-75">Watched Colombia</span>
-                                                <span class="pull-right">60</span>
-                                            </p>
-                                            <p>
-                                                <span class="width-75">Viewed content in The Sangoma</span>
-                                                <span class="pull-right">40</span>
-                                            </p>
-                                            <p>
-                                                <span class="width-75">Viewed content in The Sangoma</span>
-                                                <span class="pull-right">20</span>
-                                            </p>
-                                            <a href="#">View More</a>
-                                        </li>
-                                        <li class="logout"><a href="#" data-toggle="modal" data-target="#loginModal">Logout</a></li>
-                                    </ul>
-    							</li>
-    						</ul>
-    					</div>
-                        
-                    </div>
-				</div>
-                
-			</div>
-		</nav>
-	</header>
-    
-    
-    <!-- Header-->
-  
-    <!-- End Header-->
-    
-    <!-- Begin Home-->
-    
-    <section id="wp-instagram">
-    <div class="header-image-top"><img src="img/header-image.jpg"/></div>
-    <div class="fluid-content">
-        <div class="container">          
-            <div class="row ">
-                <div class="col-xs-12 col-md-12 col-lg-12 menu-navigation centered custome">
-                    <div class="col-xs-12 col-md-5 col-sm-12 centered">
-                        <div class="menu-item-main text-first ">
-                            <div class="menu-item-sub">@Operationchange</div>
-                        </div>
-                        <div class="menu-item-main text-first">
-                            <div class="menu-item-sub">#Starkeycare</div>
-                        </div>
-                    </div>
-                     <div class="col-xs-12 col-md-7 col-sm-12">
-                        <div class="menu-item-main">
-                            <div class="menu-item-sub-dropdown">
-                                <div class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Feature Contributor <i class="fa fa-chevron-circle-down pull-right"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><img src="img/avatar_f3.png" class="icon-filter"/>Action</a></li>
-                                        <li><a href="#"><img src="img/avatar_f3.png" class="icon-filter"/>Another action</a></li>
-                                        <li><a href="#"><img src="img/avatar_f3.png" class="icon-filter"/>Something else here</a></li>
-                                    </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item-main">
-                            <div class="menu-item-sub-dropdown">
-                                <div class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filter By <i class="fa fa-chevron-circle-down pull-right"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                    </ul>
+                                <div class="menu-item-main">
+                                    <div class="menu-item-sub-dropdown">
+                                        <div class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filter By <i class="fa fa-chevron-circle-down pull-right"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                        
-                        
                 </div>
             </div>
-        </div>
-    </div>
-        <div class="container">
-            <div id="gallery-instagram" class=" content-instagram-main gallery ">
-                <div  class="row ">
-                    <div class="col-md-12 "><div class="total-post centered"><div>23,074 <span>POSTS</span></div></div></div>
-                    
-                    <div class="col-md-4 col-sm-4 col-xs-12 column">
-                        <div class="heading visible-xs clearfix">
-                            <span class="date muted">5h</span>
-                            <div class="  media">
-                                  <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+            <div class="container">
+                <div id="gallery-instagram" class=" content-instagram-main gallery ">
+                    <div  class="row ">
+                        <div class="col-md-12 ">
+                            <div class="total-post centered">
+                                <div>23,074 <span>POSTS</span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 column">
+                            <div class="heading visible-xs clearfix">
+                                <span class="date muted">5h</span>
+                                <div class="  media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
                                     <div class=" media-body">
                                         <span class="muted">post by</span><br>
                                         <a class="author"> Xị Rượu</a>
                                     </div>
-                            </div>
-                           
-                            
-                        </div>
-                        <div class="thumnail">
-                            <div class="caption">
-                                <div class="top-caption">
-                                    <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
-                                    <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a></p>
                                 </div>
                             </div>
-                            <a href="#"><img title="test caption" src="img/post5.jpg" class="box-ins"/></a>
-                        </div>
-
-                        <div class="detail-container visible-xs">
-                            <div class="detail-heading row  ">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span>
-                                   
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="content-social pull-right">
-                                        <ul>
-                                            <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                                            <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        </ul>
+                            <div class="thumnail">
+                                <div class="caption">
+                                    <div class="top-caption">
+                                        <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
+                                        <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a>
+                                        </p>
                                     </div>
                                 </div>
+                                <a href="#"><img title="test caption" src="img/post5.jpg" class="box-ins"/></a>
                             </div>
-                            <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
-
-                                    <p>
-                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-                                </p>
-                                <p>
-                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-                                    </a>
-                                </p>
+                            <div class="detail-container visible-xs">
+                                <div class="detail-heading row  ">
+                                    <div class="col-md-6 col-sm-5 col-xs-5">
+                                        <span class="liked"><i class="fa fa-heart"></i>
+                                        <span> 142 </span></span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-7 col-xs-7">
+                                        <div class="content-social pull-right">
+                                            <ul>
+                                                <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                                <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-
+                                <div class="detail row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p>
+                                            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                        </p>
+                                        <p>
+                                            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
                         </div>
-                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-4 responsive-mobile">
-                        <div class="heading visible-xs clearfix">
-                            <span class="date muted">5h</span>
-                            <div class="  media">
-                                  <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+                         <div class="col-md-4 col-sm-4 col-xs-12 column">
+                            <div class="heading visible-xs clearfix">
+                                <span class="date muted">5h</span>
+                                <div class="  media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
                                     <div class=" media-body">
                                         <span class="muted">post by</span><br>
                                         <a class="author"> Xị Rượu</a>
                                     </div>
-                            </div>
-                           
-                            
-                        </div>
-                        <div class="thumnail">
-                            <div class="caption">
-                                <div class="top-caption">
-                                    <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
-                                    <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a></p>
                                 </div>
                             </div>
-                            <a href="#"><img title="test caption" src="img/post7.jpg" class="box-ins"/></a>
-                        </div>
-                        <div class="detail-container visible-xs">
-                            <div class="detail-heading row  ">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span>
-                                   
+                            <div class="thumnail">
+                                <div class="caption">
+                                    <div class="top-caption">
+                                        <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
+                                        <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a>
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="content-social pull-right">
-                                        <ul>
-                                            <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                                            <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        </ul>
+                                <a href="#"><img title="test caption" src="img/post7.jpg" class="box-ins"/></a>
+                            </div>
+                            <div class="detail-container visible-xs">
+                                <div class="detail-heading row  ">
+                                    <div class="col-md-6 col-sm-5 col-xs-5">
+                                        <span class="liked"><i class="fa fa-heart"></i>
+                                        <span> 142 </span></span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-7 col-xs-7">
+                                        <div class="content-social pull-right">
+                                            <ul>
+                                                <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                                <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p>
+                                            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                        </p>
+                                        <p>
+                                            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 column">
+                            <div class="heading visible-xs clearfix">
+                                <span class="date muted">5h</span>
+                                <div class="  media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+                                    <div class=" media-body">
+                                        <span class="muted">post by</span><br>
+                                        <a class="author"> Xị Rượu</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
-
-                                    <p>
-                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-                                </p>
-                                <p>
-                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-                                    </a>
-                                </p>
+                            <div class="thumnail">
+                                <div class="caption">
+                                    <div class="top-caption">
+                                        <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
+                                        <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a>
+                                        </p>
+                                    </div>
                                 </div>
-
+                                <a href="#"><img title="test caption" src="img/post1.jpg" class="box-ins"/></a>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                            <div class="detail-container visible-xs">
+                                <div class="detail-heading row  ">
+                                    <div class="col-md-6 col-sm-5 col-xs-5">
+                                        <span class="liked"><i class="fa fa-heart"></i>
+                                        <span> 142 </span></span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-7 col-xs-7">
+                                        <div class="content-social pull-right">
+                                            <ul>
+                                                <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                                <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p>
+                                            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                        </p>
+                                        <p>
+                                            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 column">
+                            <div class="heading visible-xs clearfix">
+                                <span class="date muted">5h</span>
+                                <div class="  media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+                                    <div class=" media-body">
+                                        <span class="muted">post by</span><br>
+                                        <a class="author"> Xị Rượu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumnail">
+                                <div class="caption">
+                                    <div class="top-caption">
+                                        <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
+                                        <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#"><img title="test caption" src="img/post2.jpg" class="box-ins"/></a>
+                            </div>
+                            <div class="detail-container visible-xs">
+                                <div class="detail-heading row  ">
+                                    <div class="col-md-6 col-sm-5 col-xs-5">
+                                        <span class="liked"><i class="fa fa-heart"></i>
+                                        <span> 142 </span></span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-7 col-xs-7">
+                                        <div class="content-social pull-right">
+                                            <ul>
+                                                <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                                <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p>
+                                            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                        </p>
+                                        <p>
+                                            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 column">
+                            <div class="heading visible-xs clearfix">
+                                <span class="date muted">5h</span>
+                                <div class="  media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+                                    <div class=" media-body">
+                                        <span class="muted">post by</span><br>
+                                        <a class="author"> Xị Rượu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumnail">
+                                <div class="caption">
+                                    <div class="top-caption">
+                                        <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
+                                        <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#"><img title="test caption" src="img/post3.jpg" class="box-ins"/></a>
+                            </div>
+                            <div class="detail-container visible-xs">
+                                <div class="detail-heading row  ">
+                                    <div class="col-md-6 col-sm-5 col-xs-5">
+                                        <span class="liked"><i class="fa fa-heart"></i>
+                                        <span> 142 </span></span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-7 col-xs-7">
+                                        <div class="content-social pull-right">
+                                            <ul>
+                                                <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                                <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p>
+                                            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                        </p>
+                                        <p>
+                                            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 column">
+                            <div class="heading visible-xs clearfix">
+                                <span class="date muted">5h</span>
+                                <div class="  media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+                                    <div class=" media-body">
+                                        <span class="muted">post by</span><br>
+                                        <a class="author"> Xị Rượu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumnail">
+                                <div class="caption">
+                                    <div class="top-caption">
+                                        <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
+                                        <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
+                                            <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#"><img title="test caption" src="img/post4.jpg" class="box-ins"/></a>
+                            </div>
+                            <div class="detail-container visible-xs">
+                                <div class="detail-heading row  ">
+                                    <div class="col-md-6 col-sm-5 col-xs-5">
+                                        <span class="liked"><i class="fa fa-heart"></i>
+                                        <span> 142 </span></span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-7 col-xs-7">
+                                        <div class="content-social pull-right">
+                                            <ul>
+                                                <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                                <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <p>
+                                            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                        </p>
+                                        <p>
+                                            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 column">
-                        <div class="heading visible-xs clearfix">
-                            <span class="date muted">5h</span>
-                            <div class="  media">
-                                  <img class="avatar-small pull-left" src="img/avatar_f3.png" />
-                                    <div class=" media-body">
-                                        <span class="muted">post by</span><br>
-                                        <a class="author"> Xị Rượu</a>
-                                    </div>
-                            </div>
-                           
-                            
-                        </div>
-                        <div class="thumnail">
-                            <div class="caption">
-                                <div class="top-caption">
-                                    <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
-                                    <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a></p>
-                                </div>
-                            </div>
-                            <a href="#"><img title="test caption" src="img/post1.jpg" class="box-ins"/></a>
-                        </div>
-                        <div class="detail-container visible-xs">
-                            <div class="detail-heading row  ">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span>
-                                   
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="content-social pull-right">
-                                        <ul>
-                                            <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                                            <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
-
-                                    <p>
-                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-                                </p>
-                                <p>
-                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-                                    </a>
-                                </p>
-                                </div>
-
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
-                        </div>
+                    <div class=" action-button col-md-12 ">
+                        <a class="scroll-top " href="#gallery-instagram "><i class="fa fa-chevron-up "></i></a>
+                        <div class="text-center loadmore"><a class="btn load-more ">LOAD MORE</a></div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 column">
-                        <div class="heading visible-xs clearfix">
-                            <span class="date muted">5h</span>
-                            <div class="  media">
-                                  <img class="avatar-small pull-left" src="img/avatar_f3.png" />
-                                    <div class=" media-body">
-                                        <span class="muted">post by</span><br>
-                                        <a class="author"> Xị Rượu</a>
-                                    </div>
-                            </div>
-                           
-                            
-                        </div>
-                        <div class="thumnail">
-                            <div class="caption">
-                                <div class="top-caption">
-                                    <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
-                                    <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a></p>
-                                </div>
-                            </div>
-                            <a href="#"><img title="test caption" src="img/post2.jpg" class="box-ins"/></a>
-                        </div>
-                        <div class="detail-container visible-xs">
-                            <div class="detail-heading row  ">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span>
-                                   
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="content-social pull-right">
-                                        <ul>
-                                            <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                                            <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
-
-                                    <p>
-                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-                                </p>
-                                <p>
-                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-                                    </a>
-                                </p>
-                                </div>
-
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 column">
-                        <div class="heading visible-xs clearfix">
-                            <span class="date muted">5h</span>
-                            <div class="  media">
-                                  <img class="avatar-small pull-left" src="img/avatar_f3.png" />
-                                    <div class=" media-body">
-                                        <span class="muted">post by</span><br>
-                                        <a class="author"> Xị Rượu</a>
-                                    </div>
-                            </div>
-                           
-                            
-                        </div>
-                        <div class="thumnail">
-                            <div class="caption">
-                                <div class="top-caption">
-                                    <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
-                                    <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a></p>
-                                </div>
-                            </div>
-                            <a href="#"><img title="test caption" src="img/post3.jpg" class="box-ins"/></a>
-                        </div>
-                        <div class="detail-container visible-xs">
-                            <div class="detail-heading row  ">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span>
-                                   
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="content-social pull-right">
-                                        <ul>
-                                            <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                                            <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
-
-                                    <p>
-                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-                                </p>
-                                <p>
-                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-                                    </a>
-                                </p>
-                                </div>
-
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 column">
-                        <div class="heading visible-xs clearfix">
-                            <span class="date muted">5h</span>
-                            <div class="  media">
-                                  <img class="avatar-small pull-left" src="img/avatar_f3.png" />
-                                    <div class=" media-body">
-                                        <span class="muted">post by</span><br>
-                                        <a class="author"> Xị Rượu</a>
-                                    </div>
-                            </div>
-                           
-                            
-                        </div>
-                        <div class="thumnail">
-                            <div class="caption">
-                                <div class="top-caption">
-                                    <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
-                                    <p><a href="#" rel="tooltip"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="#" rel="tooltip" ><i class="fa fa-comment">3</i></a></p>
-                                </div>
-                            </div>
-                            <a href="#"><img title="test caption" src="img/post4.jpg" class="box-ins"/></a>
-                        </div>
-                        <div class="detail-container visible-xs">
-                            <div class="detail-heading row  ">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span>
-                                   
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <div class="content-social pull-right">
-                                        <ul>
-                                            <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                                            <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
-
-                                    <p>
-                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-                                </p>
-                                <p>
-                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-                                    </a>
-                                </p>
-                                </div>
-
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
-                        </div>
-                    </div>
-                </div>
-                 <div class=" action-button col-md-12 ">
-                     <a class="scroll-top " href="#gallery-instagram "><i class="fa fa-chevron-up "></i></a>
-                    <div class="text-center loadmore"><a class="btn load-more ">LOAD MORE</a></div>
                 </div>
             </div>
-        </div>
-        
-        <section class="container get-more-picture">
-            <div class="row ">
-               
+            <section class="container get-more-picture">
+                <div class="row ">
                 <div class="col-xs-12 col-md-12 col-lg-12">
                     <div class="col-lg-12 text-center text-footer">
-                        
-                        <h1><div class="arrow-top"></div>How to Get Your Picture Here</h1>
+                        <h1>
+                            <div class="arrow-top"></div>
+                            How to Get Your Picture Here
+                        </h1>
                         <p>
-                         Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per. Vis ex oblique convenire, nisl ubique accusamus ei has. An sit dolore mollis salutatus, debet invenire philosophia mei in, has iuvaret atomorum argumentum ei. Ut vix impedit moderatius, eu copiosae suavitate sea. Et quis impedit perpetua sed.
-                      
+                            Lorem ipsum dolor sit amet, eum aeque officiis electram ad, quaeque graecis contentiones ad per. Vis ex oblique convenire, nisl ubique accusamus ei has. An sit dolore mollis salutatus, debet invenire philosophia mei in, has iuvaret atomorum argumentum ei. Ut vix impedit moderatius, eu copiosae suavitate sea. Et quis impedit perpetua sed.
                         </p>
                     </div>
                 </div>
@@ -598,272 +565,325 @@
                         </div>
                     </div>
                 </div>
+            </section>
         </section>
-    </section>
-    <!-- End Home-->
-    
-    
-    <!-- End footer bar-->
-    <section id="wp-footer-bar">
-        <div class="container">
-            <div class="col-md-3 col-sm-3 no-padding">
-                <h6>info</h6>
-                <ul class="menu-list">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Policies</a></li>
-                    <li><a href="#">Terms & Privacy</a></li>
-                </ul>
-                <div class="clearfix"></div>
-            </div>
-            <div class="col-md-6 col-sm-6 no-padding">
-                <div class="content-user-list">
-                    <h6>episodes</h6>
-                    <ul class="user-list">
-                        <li><a href="#"><img src="img/avatar_f3.png" /></a><p>Ep 01</p></li>
-                        <li><a href="#"><img src="img/avatar_f2.png" /></a><p>Ep 02</p></li>
-                        <li><a href="#"><img src="img/avatar_f1.png" /></a><p>Ep 03</p></li>
-                        <li><a href="#"><img src="img/avatar_f4.png" /></a><p>Ep 04</p></li>
-                        <li><a href="#"><img src="img/avatar_f5.png" /></a><p>Ep 05</p></li>
-                        <li><a href="#"><img src="img/avatar_f6.png" /></a><p>Ep 06</p></li>
-                        <li><a href="#"><img src="img/avatar_f7.png" /></a><p>Ep 07</p></li>
-                        <li><a href="#"><img src="img/avatar_f8.png" /></a><p>Ep 08</p></li>
-                        <li><a href="#"><img src="img/avatar_f9.png" /></a><p>Ep 09</p></li>
-                        <li><a href="#"><img src="img/avatar_f3.png" /></a><p>Ep 010</p></li>
-                        <div class="clearfix"></div>
+        <!-- End Home-->
+        <!-- End footer bar-->
+        <section id="wp-footer-bar">
+            <div class="container">
+                <div class="col-md-3 col-sm-3 no-padding">
+                    <h6>info</h6>
+                    <ul class="menu-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Policies</a></li>
+                        <li><a href="#">Terms & Privacy</a></li>
                     </ul>
+                    <div class="clearfix"></div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-3 no-padding">
-                <div class="free-update">
-                    <h6>newsletter</h6>
-                    <form action="">
-                        <input  type="text" class="inp-email" placeholder="Enter your email address"/>
-                        <input type="submit" class="sub-form" value="Subscribe"/>
-                    </form>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!-- End footer bar-->
-    
-    <!-- Footer -->
-    <footer id="wp-footer">
-        <div class="container">
-            <div class="col-md-6 col-sm-6 no-padding">
-                <div class="content-copyright">
-                    <p>&copy; Operation Change 2015</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 no-padding pull-right">
-                <div class="content-social">
-                    <span class="find_us">Find us on:</span>
-                    <ul>
-                        <li class="content-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li class="content-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li class="content-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li class="content-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    </footer>
-    
-    <div class="modal fade modal-fullscreen force-fullscreen" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="container-modal">
-                        <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"> 
-                        </button>
+                <div class="col-md-6 col-sm-6 no-padding">
+                    <div class="content-user-list">
+                        <h6>episodes</h6>
+                        <ul class="user-list">
+                            <li>
+                                <a href="#"><img src="img/avatar_f3.png" /></a>
+                                <p>Ep 01</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f2.png" /></a>
+                                <p>Ep 02</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f1.png" /></a>
+                                <p>Ep 03</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f4.png" /></a>
+                                <p>Ep 04</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f5.png" /></a>
+                                <p>Ep 05</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f6.png" /></a>
+                                <p>Ep 06</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f7.png" /></a>
+                                <p>Ep 07</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f8.png" /></a>
+                                <p>Ep 08</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f9.png" /></a>
+                                <p>Ep 09</p>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/avatar_f3.png" /></a>
+                                <p>Ep 010</p>
+                            </li>
+                            <div class="clearfix"></div>
+                        </ul>
                     </div>
                 </div>
-                <div class="modal-body">
-                    <div class="container-modal">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 text-center">
-                                <h2>Sign in</h2>
-                                <p class="text-signup">Sign up for Operation Change to save your points and keep track of your progress!</p>
-                            </div>
+                <div class="col-md-3 col-sm-3 no-padding">
+                    <div class="free-update">
+                        <h6>newsletter</h6>
+                        <form action="">
+                            <input  type="text" class="inp-email" placeholder="Enter your email address"/>
+                            <input type="submit" class="sub-form" value="Subscribe"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End footer bar-->
+        <!-- Footer -->
+        <footer id="wp-footer">
+            <div class="container">
+                <div class="col-md-6 col-sm-6 no-padding">
+                    <div class="content-copyright">
+                        <p>&copy; Operation Change 2015</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 no-padding pull-right">
+                    <div class="content-social">
+                        <span class="find_us">Find us on:</span>
+                        <ul>
+                            <li class="content-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="content-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li class="content-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="content-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="modal fade modal-fullscreen force-fullscreen" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="container-modal">
+                            <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"> 
+                            </button>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <div class="social-type">
-                                    <a class="btn btn-block btn-social btn-lg btn-facebook"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
-                                    <a class="btn btn-block btn-social btn-lg btn-google"><i class="fa fa-google"></i>Sign in with Google Plus</a>
-                                    <a class="btn btn-block btn-social btn-lg btn-linkedin"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-modal">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 text-center">
+                                    <h2>Sign in</h2>
+                                    <p class="text-signup">Sign up for Operation Change to save your points and keep track of your progress!</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="social-type">
+                                        <a class="btn btn-block btn-social btn-lg btn-facebook"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
+                                        <a class="btn btn-block btn-social btn-lg btn-google"><i class="fa fa-google"></i>Sign in with Google Plus</a>
+                                        <a class="btn btn-block btn-social btn-lg btn-linkedin"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row no-margin">
+                                <div class="login-line">
+                                    <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2 col-lg-2">
+                                        <p>OR</p>
+                                    </div>
+                                    <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <form class="form-login">
+                                        <input type="text" class="form-control" placeholder="Email" />
+                                        <input type="password" class="form-control" placeholder="Password" />
+                                        <a href="#" class="pull-left">Forgot Your Password?</a>
+                                        <a href="#" class="pull-right">Create an Account</a>
+                                        <button type="submit" class="form-control btn-login">Log In</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="row no-margin">
-                            <div class="login-line">
-                                <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
-                                <div class="col-xs-2 col-md-2 col-sm-2 col-lg-2"><p>OR</p></div>
-                                <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <form class="form-login">
-                                    <input type="text" class="form-control" placeholder="Email" />
-                                    <input type="password" class="form-control" placeholder="Password" />
-                                    <a href="#" class="pull-left">Forgot Your Password?</a>
-                                    <a href="#" class="pull-right">Create an Account</a>
-                                    <button type="submit" class="form-control btn-login">Log In</button>
-                                </form>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="modal fade modal-fullscreen force-fullscreen" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="container-modal">
-                        <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"> 
-                        </button>
-                    </div>
-                </div>
-                <div class="modal-body">
-                    <div class="container-modal">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 text-center">
-                                <h2>Sign up</h2>
-                                <p class="text-signup">Sign up for Operation Change to save your points and keep track of your progress!</p>
-                            </div>
+        <div class="modal fade modal-fullscreen force-fullscreen" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="container-modal">
+                            <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"> 
+                            </button>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <div class="social-type">
-                                    <a class="btn btn-block btn-social btn-lg btn-facebook"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
-                                    <a class="btn btn-block btn-social btn-lg btn-google"><i class="fa fa-google"></i>Sign in with Google Plus</a>
-                                    <a class="btn btn-block btn-social btn-lg btn-linkedin"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-modal">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 text-center">
+                                    <h2>Sign up</h2>
+                                    <p class="text-signup">Sign up for Operation Change to save your points and keep track of your progress!</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="social-type">
+                                        <a class="btn btn-block btn-social btn-lg btn-facebook"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
+                                        <a class="btn btn-block btn-social btn-lg btn-google"><i class="fa fa-google"></i>Sign in with Google Plus</a>
+                                        <a class="btn btn-block btn-social btn-lg btn-linkedin"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row no-margin">
+                                <div class="login-line">
+                                    <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2 col-lg-2">
+                                        <p>OR</p>
+                                    </div>
+                                    <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <form class="form-login">
+                                        <div class="row no-margin">
+                                            <div class="col-md-6 col-sm-6 no-padding padding-r-7">
+                                                <input type="text" class="form-control" placeholder="First Name" />
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 no-padding padding-l-7">
+                                                <input type="text" class="form-control" placeholder="Last Name" />
+                                            </div>
+                                        </div>
+                                        <input class="form-control" placeholder="Email" />
+                                        <input class="form-control" placeholder="Password" />
+                                        <label>Profile Picture: </label>
+                                        <div class="content-flie-hiden">
+                                            <input type="file" id="fileInput" name="fileInput" />
+                                        </div>
+                                        <div class="content-btn-flie">
+                                            <button type="button" onclick="chooseFile();">Choose File</button>
+                                        </div>
+                                        <!--<input type="file" class="form-control file-type"/> -->
+                                        <p class="text-signup text-center">
+                                            By registering here you are accepting the Operation Change terms & conditons.
+                                        </p>
+                                        <button type="submit" class="form-control btn-login">Create Account</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="row no-margin">
-                            <div class="login-line">
-                                <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
-                                <div class="col-xs-2 col-md-2 col-sm-2 col-lg-2"><p>OR</p></div>
-                                <div class="col-xs-5 col-md-5 col-sm-5 col-lg-5"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <form class="form-login">
-                                    <div class="row no-margin">
-                                        <div class="col-md-6 col-sm-6 no-padding padding-r-7">
-                                            <input type="text" class="form-control" placeholder="First Name" />
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 no-padding padding-l-7">
-                                            <input type="text" class="form-control" placeholder="Last Name" />
-                                        </div>
-                                    </div>
-                                    <input class="form-control" placeholder="Email" />
-                                    <input class="form-control" placeholder="Password" />
-                                    <label>Profile Picture: </label>
-                                    <div class="content-flie-hiden">
-                                       <input type="file" id="fileInput" name="fileInput" />
-                                    </div>
-                                    <div class="content-btn-flie">
-                                        <button type="button" onclick="chooseFile();">Choose File</button>
-                                    </div>
-                                    <!--<input type="file" class="form-control file-type"/> -->
-                                    <p class="text-signup text-center">
-                                    By registering here you are accepting the Operation Change terms & conditons.</p>
-                                    <button type="submit" class="form-control btn-login">Create Account</button>
-                                </form>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
-  <div class="modal-dialog custom">
-  <div class="modal-content">
-    <div class="modal-header">
-        <button class="close" type="button" data-dismiss="modal"><i class="fa fa-remove"></i></button>
-
-    	</div>
-	<div class="detail-container modal-body">
-     <div class="thumnail">
+        <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog custom">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" type="button" data-dismiss="modal"><i class="fa fa-remove"></i></button>
+                    </div>
+                    <div class="detail-container modal-body">
+                        <div class="thumnail">
                             <div class="caption">
                                 <div class="top-caption">
                                     <p>here test caption when hover here test caption when  here test caption when  here test caption when </p>
                                     <p><a rel="tooltip" href="#"><i class="fa fa-heart">150</i></a> &nbsp;&nbsp;&nbsp;
-                                    <a rel="tooltip" href="#"><i class="fa fa-comment">3</i></a></p>
+                                        <a rel="tooltip" href="#"><i class="fa fa-comment">3</i></a>
+                                    </p>
                                 </div>
                             </div>
                             <a href="#"><img class="box-ins" src="img/post3.jpg" title="test caption"></a>
                         </div>
-    <div class="detail-heading row  ">
-        <div class="col-md-6 col-sm-6 col-xs-6">
-            <img class="avatar-small pull-left" src="img/avatar_f3.png" />
-            <div class="col-md-8 posted">Posted 5h by</div>
-            <div class="col-md-8 author">Xị Rượu</div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
-            <div class="content-social pull-right">
-                <ul>
-                    <li><span class="liked"><i class="fa fa-heart"></i>
-                            <span> 142 </span></span></li>
-                    <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
-                    <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                </ul>
+                        <div class="detail-heading row  ">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <div class="media">
+                                    <img class="avatar-small pull-left" src="img/avatar_f3.png" />
+                                    <div class=" media-body">
+                                        <span class="muted">post by</span><br>
+                                        <a class="author"> Xị Rượu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <div class="content-social pull-right">
+                                    <ul>
+                                        <li><span class="liked"><i class="fa fa-heart"></i>
+                                            <span> 142 </span></span>
+                                        </li>
+                                        <li class="content-twitter-social"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="content-google-social"><a href="#"><i class="fa fa-google"></i></a></li>
+                                        <li class="content-facebook-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="detail row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <p>
+                                    <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
+                                </p>
+                                <p>
+                                    <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="col-xs-3"><img src="img/post5.jpg" alt="Chania"></div>
+                                    <div class="col-xs-3"><img src="img/post7.jpg" alt="Chania"></div>
+                                    <div class="col-xs-3"><img src="img/post1.jpg" alt="Chania"></div>
+                                    <div class="col-xs-3"><img src="img/post3.jpg" alt="Chania"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-3"><img src="img/post5.jpg" alt="Chania"></div>
+                                    <div class="col-xs-3"><img src="img/post7.jpg" alt="Chania"></div>
+                                    <div class="col-xs-3"><img src="img/post1.jpg" alt="Chania"></div>
+                                    <div class="col-xs-3"><img src="img/post3.jpg" alt="Chania"></div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="fa fa-angle-double-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="fa  fa-angle-double-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-     <div class="detail row"><div class="col-md-12 col-sm-12 col-xs-12">
+        <!-- End Home-->
+        <script src="js/bootstrap.js"></script>
+        <script>
+            $(document).ready(function() {
              
-              <p>
-            <a href="">clairparker80 </a>may be mentally and physically exhausted but it's time to get back into my routines. An easy incline walk during lunch while texting my girlies was in order. 
-        </p>
-        <p>
-            <a href="">#StrongIsTheNewSkinny #TrainLikeAGirl #FitChicks #StrongNotSkinny #Motivation #Inspiration #Charity #100ByCharity 
-            </a>
-        </p>
-         </div>
-       
-    </div>
-    <div class="clearfix"></div>
-    <div class="fb-comments" data-href="http://androidgames.space/" data-width="500" data-numposts="5"></div>
-</div>
-   </div>
-  </div>
-</div>
-
-    <!-- End Home-->
-    <script src="js/bootstrap.js"></script>
-    
-<script>
-$(document).ready(function() {
-    
-$('.thumnail').click(function(){
-
-   // $('.modal-body').empty();
-  //	var title = $(this).parent('a').attr("title");
-  //	$('.modal-title').html(title);
-  	//$($(this).parents('div').html()).appendTo('.modal-body');
-  	$('#myModal').modal({show:true});
-});
-});
-
-
-</script>
-</body>
+            $('.thumnail').click(function(){
+               //$('.modal-body').empty();
+              // var title = $(this).parent('a').attr("title");
+              	//$('.modal-title').html(title);
+              //	$($(this).parents('.column').html()).appendTo('.modal-body');
+              	$('#myModal').modal({show:true});
+            });
+            });
+            
+            
+        </script>
+    </body>
 </html>

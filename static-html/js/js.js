@@ -56,7 +56,14 @@ $(document).ready(function () {
         var getInputs = $(this).children('input');
         getInputs.toggle();
     });
-
+$('.scroll-top').click(function(event){
+    event.stopPropagation();
+    target1 = $(this).attr('href');
+   top1=$(target1).offset();
+  	$('html,body').animate({
+          scrollTop: top1.top
+        }, 500);
+});   
 
 })
 
