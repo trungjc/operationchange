@@ -1691,18 +1691,6 @@ header.fixed nav {
     .modal-dialog.custom .modal-header .close i {
       color: white; }
 
-@media (max-width: 768px) {
-  .menu-item-sub-dropdown {
-    margin: 5px 0; } }
-@media (min-width: 768px) and (max-width: 980px) {
-  .menu-item-main.text-first {
-    border: none;
-    margin-bottom: 5px; }
-    .menu-item-main.text-first + .menu-item-main.text-first {
-      border-left: 1px solid white; } }
-@media (max-width: 400px) {
-  .modal .detail-heading .col-md-6 {
-    width: 100%; } }
 .column {
   margin-bottom: 20px; }
 
@@ -1762,6 +1750,21 @@ header.fixed nav {
       right: auto;
       left: 0; }
 
+@media (min-width: 768px) and (max-width: 980px) {
+  .menu-item-main.text-first {
+    border: none;
+    margin-bottom: 5px; }
+    .menu-item-main.text-first + .menu-item-main.text-first {
+      border-left: 1px solid white; } }
+@media (max-width: 768px) {
+  .menu-item-sub-dropdown {
+    margin: 5px 0; }
+
+  .modal-dialog {
+    margin: 20px 10px 10px; } }
+@media (max-width: 400px) {
+  .modal .detail-heading .col-md-6 {
+    width: 100%; } }
 .heading-box {
   padding: 30px 0;
   background: url(../img/bg-head-contact.png) no-repeat left center;
